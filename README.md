@@ -14,7 +14,7 @@ The purpose of this analysis is to:
  
 
 ## DOCUMENTATION
-The following documentation explains the entire process used to achieve Goal #1
+The following documentation explains the entire process used to achieve Goal 1:
 **1.** Item 1
     **1.** Item 3a
     **1.** Item 3b
