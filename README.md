@@ -15,9 +15,9 @@ The purpose of this analysis is to:
 
 ## DOCUMENTATION
 The following documentation explains the entire process used to achieve Goal 1:
-**1.** Item 1
-    **1.** Item 3a
-    **1.** Item 3b
+1. Item 1
+    1. Item 3a
+    1. Item 3b
 **1.** Attempting to replicate Smith et al.
     **a.** Multiple datasets were acquired (see link https://www.fmrib.ox.ac.uk/datasets/HCP-CCA/ for more info)
         **i.** The subjects x partial connectome data (for example, in the HCP 500 set this would be a 460x19900 matrix of connectome edge weights for all subjects)
