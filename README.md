@@ -13,10 +13,10 @@ The purpose of this analysis is to:
 **(4)** Expand this analysis to other connectome datasets
     
 Create an `spersist` session (only required once after each Biowulf reboot)
-  1. Log onto the Biowulf login node: `ssh user@biowulf.nih.gov`
-  * Start a tmux session: `tmux`
-  * Initiate an spersist session: `spersist --vnc --tunnel`
-  * Save your session environment variables using helper script: `spersist-store.sh`
+    1. Log onto the Biowulf login node: `ssh user@biowulf.nih.gov`
+    2. Start a tmux session: `tmux`
+    3. Initiate an spersist session: `spersist --vnc --tunnel`
+    4. Save your session environment variables using helper script: `spersist-store.sh`
 
 
 ## DOCUMENTATION
