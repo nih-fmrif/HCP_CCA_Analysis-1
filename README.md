@@ -2,10 +2,14 @@
 
 ## GOALS
 The purpose of this analysis is to:
-    **1.** Replicate the results of Smith et al. (https://www.fmrib.ox.ac.uk/datasets/HCP-CCA/)
-    **2.** Run this analysis on the larger HCP 1200 patient dataset
-    **3.** Create a clean, simple to use pipeline so others can replicate our analysis
-    **4**. Expand this analysis to other connectome datasets
+
+    * (1) Replicate the results of Smith et al. (https://www.fmrib.ox.ac.uk/datasets/HCP-CCA/)
+    
+    * (2) Run this analysis on the larger HCP 1200 patient dataset
+    
+    * (3) Create a clean, simple to use pipeline so others can replicate our analysis
+    
+    * (4) Expand this analysis to other connectome datasets
     
     
 ## DOCUMENTATION
