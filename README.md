@@ -1,17 +1,24 @@
 # Human Connectome Project, CCA Analyses
 
 ## GOALS
+
 The purpose of this analysis is to:
 
-    * (1) Replicate the results of Smith et al. (https://www.fmrib.ox.ac.uk/datasets/HCP-CCA/)
+**(1)** Replicate the results of [Smith et al](https://www.fmrib.ox.ac.uk/datasets/HCP-CCA/).
     
-    * (2) Run this analysis on the larger HCP 1200 patient dataset
+**(2)** Run this analysis on the larger HCP 1200 patient dataset
     
-    * (3) Create a clean, simple to use pipeline so others can replicate our analysis
+**(3)** Create a clean, simple to use pipeline so others can replicate our analysis
     
-    * (4) Expand this analysis to other connectome datasets
+**(4)** Expand this analysis to other connectome datasets
     
-    
+Create an `spersist` session (only required once after each Biowulf reboot)
+  1. Log onto the Biowulf login node: `ssh user@biowulf.nih.gov`
+  * Start a tmux session: `tmux`
+  * Initiate an spersist session: `spersist --vnc --tunnel`
+  * Save your session environment variables using helper script: `spersist-store.sh`
+
+
 ## DOCUMENTATION
 The following documentation explains the entire process used to achieve Goal #1
 **1.** Attempting to replicate Smith et al.
