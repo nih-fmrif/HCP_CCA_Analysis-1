@@ -1,0 +1,15 @@
+#!/bin/bash
+
+#example use (assuming that the .txt containing all the filenames of interest is in same directory as the script):
+#	./get_matrices filenames.txt /Users/goyaln2/Documents/HCP/HCP500_Parcellation_Timeseries_Netmats/netmats/3T_Q1-Q6related468_MSMsulc_d200_ts2_netmat2 ../parcellations/
+
+file_names=$1
+path_to_files=$2
+output_path=$3
+
+while read p; do
+	fname=$(echo $p | grep -o '^[^.]\+')
+	loadfile=$path_to_files/$p
+	outfile=$output_path/$fname.txt
+	/Applications/workbench/bin_macosx64/wb_command -cifti-convert -to-text $loadfile $outfile -col-delim ,
+done < $file_names
