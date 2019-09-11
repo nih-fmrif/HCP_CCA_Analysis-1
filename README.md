@@ -74,14 +74,12 @@ To exactly replicate the Smith et al study we used:
 2. The same hcp_cca.m code was used for analysis
 3. Running the code resulted in the following error:
 
-```html
-<span style="color:red">
+```
 Error using canoncorr (line 72)
 X and Y must have the same number of rows.
 
 Error in hcp_cca (line 82)
   [grotAr,grotBr,grotRp(j,:),grotUr,grotVr,grotstatsr]=canoncorr(uu1,uu2(PAPset(:,j),:));
-</span>
 ```
 
 The input matrix dimensions are:
