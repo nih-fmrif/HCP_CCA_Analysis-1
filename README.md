@@ -18,9 +18,9 @@ Progress:
 - [ ] Goal 3
 - [ ] Goal 4
 
-## DOCUMENTATION
+# DOCUMENTATION
 
-ATTEMPT 1 to replicate Smith et al.:
+## ATTEMPT 1 to replicate Smith et al.:
 
 **only 460 subjects were used (Smith et al. used 461) because subject 142626 was a duplicate - in a follow up analysis we will try to exactly replicate with all 461 subjects and the restricted/behavioral data released in the HCP 500 dataset**
 
@@ -55,6 +55,8 @@ ATTEMPT 1 to replicate Smith et al.:
       - the quarter/release data provided on [HCP-CCA site](https://www.fmrib.ox.ac.uk/datasets/HCP-CCA/)
    
    - the analysis ran successfully, resulting in the following plot of the subject measure CCA weights vs. connectome CCA weights:
+   
+## ATTEMPT 2 to replicate Smith et al. _exactly_ with 461 subjects
    
                     
                     
