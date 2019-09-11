@@ -64,7 +64,11 @@ Progress:
 However, this plot is NOT identical to the one in the Smith et al. paper. This could be due to a number of factors (different restricted or behavioral data since we used the data from HCP 1200, the duplicate subject removed)
 
 ## Analysis 2 -  Attempt to replicate Smith et al. _exactly_ with 461 subjects
-   
+
+To exactly replicate the Smith et al study we used:
+  - the rfMRI_Motion and quarter/release data provided on the [HCP-CCA site](https://www.fmrib.ox.ac.uk/datasets/HCP-CCA/)
+  - the HCP 500 release netmat data (same as Analysis 1)
+  - the actual restricted and behavioral files from the HCP 500 release (which should be the exact same as the data used in the Smith et al. study)
                     
                     
                             
