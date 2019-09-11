@@ -32,7 +32,7 @@ The purpose of this analysis is to:
             
        - because the data is supplied as CIFTI files, HCP workbench's wb_command tool is used to convert them to .csv files
                 
-            _NOTE: There is a script included in this repo to accompish this, see "get_matrices.sh"_
+            _NOTE: There is a script included in this repo to accompish this, see [get_matrices.sh](https://github.com/Ngoyal95/HCP_CCA_Analysis/blob/master/analysis1/scripts/get_matrices)_
                 
    - after generating the CSV files with 200x200 node edge weight data, a python script was used to generate a CSV text file (called 'NET.txt') containing the 460x199000 matrix, to be fed into CCA as in Smith et al.
 
