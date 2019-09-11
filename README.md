@@ -51,7 +51,7 @@ The purpose of this analysis is to:
    
 
 <p align="center">
-  <img src="images/analysis1_VvsU.png" alt="plot of canonival variables (subject measures vs. connectome edges)">
+  <img src="analysis1/images/analysis1_VvsU.png" alt="plot of canonival variables (subject measures vs. connectome edges)">
 </p>
 
 However, this plot is NOT identical to the one in the Smith et al. paper. This could be due to a number of factors (different restricted or behavioral data since we used the data from HCP 1200, the duplicate subject removed)
