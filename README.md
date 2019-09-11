@@ -22,19 +22,20 @@ Progress:
 
 ATTEMPT 1 to replicate Smith et al.:
 
-1. The subjects x partial connectome data (for example, in the HCP 500 set this would be a 460x19900 matrix of connectome edge weights for all subjects) was generated
-   - **only 460 subjects were used (Smith et al. used 461) because subject 142626 was a duplicate**
+1. The subjects x partial connectome matrix was generated
+   - **only 460 subjects were used (Smith et al. used 461) because subject 142626 was a duplicate - in a follow up analysis we will try to exactly replicate with all 461 subjects and the restricted/behavioral data released in the HCP 500 dataset**
+   
    - This matrix had to be created from the partial netmat information that is included in the HCP500 release. These are included as CIFTI files (.pconn.nii) which can be opened in HCP Workbench (specifically, in 'wb_view')
-         - the specific files used were located in 
+      - the specific files used were located in 
                     
-            ```
-            HCP_500_release/HCP500_Parcellation_Timeseries_Netmats/netmats_3T_Q1-Q6related468_MSMsulc_ICAd200_ts2.tar.gz
-            ```
             
-            _once you extract this file, a folder called 'netmats' is created, the actual CIFTI files needed are located in:_
-            ```
+            HCP_500_release/HCP500_Parcellation_Timeseries_Netmats/netmats_3T_Q1-Q6related468_MSMsulc_ICAd200_ts2.tar.gz
+           
+            
+         _once you extract this file, a folder called 'netmats' is created, the actual CIFTI files needed are located in:_
+            
             HCP_500_release/HCP500_Parcellation_Timeseries_Netmats/netmats/3T_Q1-Q6related468_MSMsulc_d200_ts2_netmat2
-            ```
+            
        - because the data is supplied as CIFTI files, HCP workbench's wb_command tool is used to convert them to .csv files
                 
             _NOTE: There is a script included in this repo to accompish this, see "get_matrices.sh"_
