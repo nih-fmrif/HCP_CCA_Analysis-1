@@ -12,12 +12,6 @@ The purpose of this analysis is to:
 
 **(4)** Expand this analysis to other connectome datasets
 
-Progress:
-- [ ] Goal 1
-- [ ] Goal 2
-- [ ] Goal 3
-- [ ] Goal 4
-
 # DOCUMENTATION
 
 ## Analysis 1 - Attempt to replicate Smith et al. (with 460 subjects)
