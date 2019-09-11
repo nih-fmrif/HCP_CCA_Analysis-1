@@ -94,6 +94,4 @@ EB=hcp2blocks('restricted_500_release.csv', [ ], false, vars(:,1)); % change the
 PAPset=palm_quickperms([ ], EB, Nperm);       
 ```
 
-The matrix EB has dimensions 458x5, and appears to be the source of error.
-                    
-                            
+The matrix EB has dimensions 458x5, and appears to be the source of error (the vars matrix has the correct dimensions of 461x478).
