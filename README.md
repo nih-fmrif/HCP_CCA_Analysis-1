@@ -44,9 +44,8 @@ The purpose of this analysis is to:
       - the vars.txt file
       - the unrestricted data currently available from the HCP 1200 release (it contains info on 1207 subjects)
       - the restricted data currently available from the HCP 1200 release (contains info on 1207 subjects)
-      - the varsQconf file provided on the [HCP-CCA site](https://www.fmrib.ox.ac.uk/datasets/HCP-CCA/)
-      - the rfMRI_motion.txt file provided on [HCP-CCA site](https://www.fmrib.ox.ac.uk/datasets/HCP-CCA/)
-      - the quarter/release data provided on [HCP-CCA site](https://www.fmrib.ox.ac.uk/datasets/HCP-CCA/)
+      - the quarter/release [varsQconf file](https://www.fmrib.ox.ac.uk/datasets/HCP-CCA/varsQconf.txt) provided on the HCP-CCA site
+      - the [rfMRI_motion.txt](https://www.fmrib.ox.ac.uk/datasets/HCP-CCA/rfMRI_motion.txt) file provided on HCP-CCA site
    
    - the analysis ran successfully, resulting in the following plot of the subject measure CCA weights vs. connectome CCA weights:
    
