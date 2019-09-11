@@ -56,6 +56,13 @@ Progress:
    
    - the analysis ran successfully, resulting in the following plot of the subject measure CCA weights vs. connectome CCA weights:
    
+   ~[plot of canonival variables (subject measures vs. connectome edges)](https://github.com/Ngoyal95/HCP_CCA_Analysis/blob/master/images/analysis1_VvsU.png)
+
+<p align="center">
+  <img src="images/analysis1_VvsU.png" alt="plot of canonival variables (subject measures vs. connectome edges)">
+
+</p>
+
 ## Analysis 2 -  Attempt to replicate Smith et al. _exactly_ with 461 subjects
    
                     
