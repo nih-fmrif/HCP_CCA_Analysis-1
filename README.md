@@ -20,7 +20,7 @@ Progress:
 
 # DOCUMENTATION
 
-## ATTEMPT 1 to replicate Smith et al.:
+## Analysis 1 - Attempt to replicate Smith et al. (with 460 subjects)
 
 **only 460 subjects were used (Smith et al. used 461) because subject 142626 was a duplicate - in a follow up analysis we will try to exactly replicate with all 461 subjects and the restricted/behavioral data released in the HCP 500 dataset**
 
@@ -56,7 +56,7 @@ Progress:
    
    - the analysis ran successfully, resulting in the following plot of the subject measure CCA weights vs. connectome CCA weights:
    
-## ATTEMPT 2 to replicate Smith et al. _exactly_ with 461 subjects
+## Analysis 2 -  Attempt to replicate Smith et al. _exactly_ with 461 subjects
    
                     
                     
