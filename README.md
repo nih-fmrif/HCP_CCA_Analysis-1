@@ -4,7 +4,7 @@
 
 The purpose of this analysis is to:
 
-**(1)** Replicate the results of [Smith et al](https://www.fmrib.ox.ac.uk/datasets/HCP-CCA/).
+**(1)** Replicate the results of [Smith et al 2015](https://www.fmrib.ox.ac.uk/datasets/HCP-CCA/).
 
 **(2)** Run this analysis on the larger HCP 1200 patient dataset
 
