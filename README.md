@@ -135,7 +135,8 @@ Steps:
 1. NET.txt and vars.txt were generated using the Jupyter Notebook scripts _generate_NET_analysis3.ipynb_ and _generate_vars_analysis3.ipynb_
 2. The MATLAB script hcp_cca_analysis3.m was run 
 
-**NOTE: the same issue with subjects being dropped is encountered (as in Analysis 2), so the _hcp_cca_analysis3.m_ script removes these subjects from our vars and NET matrices**
+**NOTE: the same issue with subjects being dropped is encountered (as in Analysis 2), so the _hcp_cca_analysis3.m_ script removes these subjects from our vars and NET matrices (subjects 122418, 168240, 376247)**
+
 
 **The results are as follows:**
   - Ncca (number of FWE-significant CCA components): 12
