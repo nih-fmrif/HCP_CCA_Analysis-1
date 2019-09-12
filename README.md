@@ -112,3 +112,8 @@ But this is still not identical to the plot of SM weights vs. connectome weights
 <p align="Center">
   <img src="images/smith_SMsvsConnectome.png" width=450>
 </p>
+
+
+## Analysis 3 - First attempt to expand the CCA analysis to the HCP 1200 dataset
+
+For this analysis, we lack the rfMRI_Motion and quarter/release (aka varsQconf) data used by Smith et al. These data will be substituted with 0's.
