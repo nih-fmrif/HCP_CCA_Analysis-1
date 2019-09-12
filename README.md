@@ -94,3 +94,10 @@ It turns out that subjects are being dropped from the restricted data file becau
 **The MATLAB code was modified to drop these subjects from the analysis and proceed with the subset of 458.**
 
 **The updated MATLAB code to run this analysis is: hcp_cca_analysis2.m**
+
+The analysis ran successfully, resulting in the following plot of the subject measure CCA weights vs. connectome CCA weights:
+   
+
+<p align="center">
+  <img src="analysis2/images/analysis2_VvsU.png" alt="plot of canonival variables (subject measures vs. connectome edges)">
+</p>
