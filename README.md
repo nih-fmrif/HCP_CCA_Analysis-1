@@ -16,6 +16,8 @@ The purpose of this analysis is to:
 
 ## Analysis 1 - Attempt to replicate Smith et al. (with 460 subjects)
 
+**TO REPLICATE THIS ANALYSIS: you must use the _hcp_cca_analysis1.m_ script along with the _hcp_cca_analysis1.mat_ file.**
+
 **only 460 subjects were used (Smith et al. used 461) because subject 142626 was a duplicate - in a follow up analysis we will try to exactly replicate with all 461 subjects and the restricted/behavioral data released in the HCP 500 dataset**
 
 1. The subjects x partial connectome matrix was generated   
@@ -56,9 +58,11 @@ The purpose of this analysis is to:
 
 However, this plot is NOT identical to the one in the Smith et al. paper. This could be due to a number of factors (different restricted or behavioral data since we used the data from HCP 1200, the duplicate subject removed)
 
-**TO REPLICATE THIS ANALYSIS: you must use the _hcp_cca_analysis1.m_ script along with the _hcp_cca_analysis2.mat_ file.**
 
 ## Analysis 2 -  Attempt to replicate Smith et al. _exactly_ with 461 subjects
+
+
+**TO REPLICATE THIS ANALYSIS: you must use the _hcp_cca_analysis2.m_ script along with the _hcp_cca_analysis2.mat_ file.**
 
 To exactly replicate the Smith et al study we used:
   - the rfMRI_Motion and quarter/release data provided on the [HCP-CCA site](https://www.fmrib.ox.ac.uk/datasets/HCP-CCA/)
