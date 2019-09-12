@@ -14,15 +14,15 @@ The purpose of this analysis is to:
 
 # DOCUMENTATION
 
-## File names and Checksum of files contents (computed with _shasum -a 1 &lt;filename&gt;_ on Mac OS)
-  - hcp_cca_analysis1.mat - ed2def857cdce2f72006e5128a234f37c6afd0e8 (136864876 bytes)
-  - hcp_cca_analysis2.mat - 4a88d45d236bd0133c16d9a7135707e6d4d17299 (68583351 bytes)
-  - hcp_cca_analysis3.mat - b8ee7f325f6c2104910150d2c80a47c5d5dd7096 (123318709 bytes)
+## File names and Checksum of files contents (computed with _md5 &lt;filename&gt;_ on Mac OS)
+  - hcp_cca_analysis1.mat - c3478c29e60f3d62a87ecdeefd4672a0 (136864876 bytes)
+  - hcp_cca_analysis2.mat - 650a7e34c52786c2da5c1c3c7def9300 (68583351 bytes)
+  - hcp_cca_analysis3.mat - 22a21bb7c003b37322abf73f7267ce98 (123318709 bytes)
   
-  - restricted_500_release.csv - 0bc50a6a03b51c71f302b187083b1c57399d4434 (309106 bytes)
-  - restricted_1200_release.csv - bd9b084e6b7fb3050fb9c4371fae1e13fbbf53b3 (701178 bytes)
-  - unrestricted_500_release.csv - c851a8bc0ce74861de427817e172910b7c07f6b4 (1000552 bytes)
-  - unrestricted_1200_release.cscv - 21790b913c75003ec78c5267050fd4f2abc26ed2 (3522034 bytes)
+  - restricted_500_release.csv - 9374bf82ae119977ccb7816503a3b149 (309106 bytes)
+  - restricted_1200_release.csv - f4c0de51deee3ae57fb90ecd46c543e0 (701178 bytes)
+  - unrestricted_500_release.csv - 4a5faf47cb952acaca933b6c3a12bfaf (1000552 bytes)
+  - unrestricted_1200_release.cscv - 39bf7c6cbf71df81397ad1654156ae64 (3522034 bytes)
 
 
 ## Analysis 2 (READ THIS FIRST) -  Attempt to replicate Smith et al. _exactly_ with 461 subjects
