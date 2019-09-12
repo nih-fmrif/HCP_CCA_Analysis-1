@@ -27,6 +27,7 @@ To simplify replication of these analyses (and if you do not wish to work from t
 
 These files are hosted on a Box account, and to request access please email nikhil.goyal@nih.gov with your name, institution, and explanation of why you are requesting access.
 
+# Analyses
 
 ## Analysis 2 (READ THIS FIRST) -  Attempt to replicate Smith et al. _exactly_ with 461 subjects
 _All scripts for this analysis are located in analysis2/scripts_
