@@ -101,3 +101,8 @@ The analysis ran successfully, resulting in the following plot of the subject me
 <p align="center">
   <img src="analysis2/images/analysis2_VvsU.png" alt="plot of canonival variables (subject measures vs. connectome edges)">
 </p>
+
+But this is still not identical to the plot of SM weights vs. connectome weights in the Smith et al 2015 paper:
+<p align="Center">
+  <img src="images/smith_SMsvsConnectome.png" width=450>
+</p>
