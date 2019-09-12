@@ -78,11 +78,15 @@ tab0a =  cellfun(@isnan, tab(:,1:3));
 tab0b = ~cellfun(@ischar,tab(:,4));
 tab0  = any(horzcat(tab0a,tab0b),2);
 idstodel = cell2mat(tab(tab0,1));
+
 if numel(idstodel),
-    warning([ ...
-        'These subjects have data missing in the restricted file and will be removed: \n' ...
-        repmat('         %d\n',1,numel(idstodel))],idstodel);
+%     warning([ ...
+%         'These subjects have data missing in the restricted file and will be removed: \n' ...
+%         repmat('         %d\n',1,numel(idstodel))],idstodel);
+    warning('the following subjects have missing data in the restricted file and will be REMOVED: \n');
+    idstodel
 end
+
 if nargin >= 4 && ~ isempty(ids) && ~ isempty(idstodel),
     ids(any(bsxfun(@eq,ids(:),idstodel'),2)) = [];
 end
