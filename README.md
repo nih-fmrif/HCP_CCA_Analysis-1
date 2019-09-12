@@ -103,6 +103,6 @@ The analysis ran successfully, resulting in the following plot of the subject me
 </p>
 
 But this is still not identical to the plot of SM weights vs. connectome weights in the Smith et al 2015 paper:
-<p align="Right">
-  <img src="images/smith_SMsvsConnectome.png">
+<p align="Center">
+  <img src="images/smith_SMsvsConnectome.png" width=450>
 </p>
