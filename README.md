@@ -15,9 +15,9 @@ The purpose of this analysis is to:
 # DOCUMENTATION
 
 ## File names and Checksums (computed with _shasum -a 1 &lt;filename&gt;_ on Mac OS)
-  - hcp_cca_analysis1.mat - ed2def857cdce2f72006e5128a234f37c6afd0e8
-  - hcp_cca_analysis2.mat - 4a88d45d236bd0133c16d9a7135707e6d4d17299
-  - hcp_cca_analysis3.mat - b8ee7f325f6c2104910150d2c80a47c5d5dd7096
+  - hcp_cca_analysis1.mat - ed2def857cdce2f72006e5128a234f37c6afd0e8 (136864876 bytes)
+  - hcp_cca_analysis2.mat - 4a88d45d236bd0133c16d9a7135707e6d4d17299 (68583351 bytes)
+  - hcp_cca_analysis3.mat - b8ee7f325f6c2104910150d2c80a47c5d5dd7096 (123318709 bytes)
 
 
 ## Analysis 2 (READ THIS FIRST) -  Attempt to replicate Smith et al. _exactly_ with 461 subjects
