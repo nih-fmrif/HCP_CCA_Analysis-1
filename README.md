@@ -1,4 +1,4 @@
-# Human Connectome Project, CCA Analyses
+# Human Connectome Project, CCA Analyses Documentation
 
 ## GOALS
 
@@ -11,8 +11,6 @@ The purpose of this analysis is to:
 **(3)** Create a clean, simple to use pipeline so others can replicate our analysis
 
 **(4)** Expand this analysis to other connectome datasets
-
-# DOCUMENTATION
 
 ## File names and Checksum of files contents (computed with _md5 &lt;filename&gt;_ on Mac OS)
   - hcp_cca_analysis1.mat - c3478c29e60f3d62a87ecdeefd4672a0 (136864876 bytes)
