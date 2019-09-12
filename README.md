@@ -15,6 +15,7 @@ The purpose of this analysis is to:
 # DOCUMENTATION
 
 ## Analysis 1 - Attempt to replicate Smith et al. (with 460 subjects)
+_All scripts for this analysis are located in analysis1/scripts_
 
 **TO REPLICATE THIS ANALYSIS: you must use the _hcp_cca_analysis1.m_ script along with the _hcp_cca_analysis1.mat_ file.**
 
@@ -60,7 +61,7 @@ However, this plot is NOT identical to the one in the Smith et al. paper. This c
 
 
 ## Analysis 2 -  Attempt to replicate Smith et al. _exactly_ with 461 subjects
-
+_All scripts for this analysis are located in analysis2/scripts_
 
 **TO REPLICATE THIS ANALYSIS: you must use the _hcp_cca_analysis2.m_ script along with the _hcp_cca_analysis2.mat_ file.**
 
@@ -116,6 +117,7 @@ But this is still not identical to the plot of SM weights vs. connectome weights
 
 ## Analysis 3 - First attempt to expand the CCA analysis to the HCP 1200 dataset with al 478SMs (imputed missing data)
 _All scripts for this analysis are located in analysis3/scripts_
+
 **TO REPLICATE THIS ANALYSIS: you must use the _hcp_cca_analysis3.m_ script along with the _hcp_cca_analysis3.mat_ file.**
 
 For this analysis, we lack the rfMRI_Motion and quarter/release (aka varsQconf) data used by Smith et al. These data will be substituted with 0's.
