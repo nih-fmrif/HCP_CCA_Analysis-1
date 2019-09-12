@@ -115,13 +115,13 @@ But this is still not identical to the plot of SM weights vs. connectome weights
 
 
 ## Analysis 3 - First attempt to expand the CCA analysis to the HCP 1200 dataset with al 478SMs (imputed missing data)
-
+_All scripts for this analysis are located in analysis3/scripts_
 **TO REPLICATE THIS ANALYSIS: you must use the _hcp_cca_analysis3.m_ script along with the _hcp_cca_analysis3.mat_ file.**
 
 For this analysis, we lack the rfMRI_Motion and quarter/release (aka varsQconf) data used by Smith et al. These data will be substituted with 0's.
 
 The following data were used:
-  - HCP 1200 netmats (to generate the NET matrix)
+  - HCP 1200 netmats (to generate the NET matrix, using the script _generate_NET.ipynb_)
   - HCP 1200 behavioral and restricted datasets (to generate the subject measure matrix)
   - the [column_headers.txt](https://www.fmrib.ox.ac.uk/datasets/HCP-CCA/column_headers.txt) file from the [HCP-CCA site](https://www.fmrib.ox.ac.uk/datasets/HCP-CCA/) (so that the same subject measures are used)
   
