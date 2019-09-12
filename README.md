@@ -19,7 +19,7 @@ _All scripts for this analysis are located in analysis1/scripts_
 
 **TO REPLICATE THIS ANALYSIS: you must use the _hcp_cca_analysis1.m_ script along with the _hcp_cca_analysis1.mat_ file.**
 
-**only 460 subjects were used (Smith et al. used 461) because subject 142626 was a duplicate - in a follow up analysis we will try to exactly replicate with all 461 subjects and the restricted/behavioral data released in the HCP 500 dataset**
+**only 460 subjects were used (Smith et al. used 461) because subject 142626 was a duplicate - in a follow up analysis (Analysis 2, discussed below) we will try to exactly replicate with all 461 subjects and the restricted/behavioral data released in the HCP 500 dataset**
 
 1. The subjects x partial connectome matrix was generated   
    - This matrix had to be created from the partial netmat information that is included in the HCP500 release. These are included as CIFTI files (.pconn.nii) which can be opened in HCP Workbench (specifically, in 'wb_view')
