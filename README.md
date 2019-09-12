@@ -88,3 +88,7 @@ PAPset=palm_quickperms([ ], EB, Nperm);
 ```
 
 The matrix _EB_ has dimensions 458x5, and appears to be the source of error (the _vars_ matrix has the correct dimensions of 461x478).
+
+It turns out that subjects are being dropped from the restricted data file because they are lacking elementary data necessary to generate the permutations. These subjects are: 108525, 116322, 146331, 256540.
+
+The MATLAB code was modified to drop these subjects from the analysis and proceed with the subset of 458.
