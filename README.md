@@ -53,9 +53,8 @@ _All scripts for this analysis are located in analysis1/scripts_
    - the analysis ran successfully, resulting in the following plot of the subject measure CCA weights vs. connectome CCA weights:
    
 **The results of this analysis are as follows:**
-
-Ncca (number of FWE-significant CCA components): 0
-Scatter plot of SM weights vs. connectome weights for canonical variables:
+  - Ncca (number of FWE-significant CCA components): 0
+  - Scatter plot of SM weights vs. connectome weights for canonical variables:
 <p align="center">
   <img src="analysis1/images/analysis1_VvsU.png" alt="plot of canonival variables (subject measures vs. connectome edges)">
 </p>
@@ -106,9 +105,8 @@ It turns out that subjects are being dropped from the restricted data file becau
 **The updated MATLAB code to run this analysis is: hcp_cca_analysis2.m**
 
 **The results of this analysis are as follows:**
-
-Ncca (number of FWE-significant CCA components): 0
-Scatter plot of the subject measure CCA weights vs. connectome CCA weights:
+  - Ncca (number of FWE-significant CCA components): 0
+  - Scatter plot of the subject measure CCA weights vs. connectome CCA weights:
 <p align="center">
   <img src="analysis2/images/analysis2_VvsU.png" alt="plot of canonival variables (subject measures vs. connectome edges)">
 </p>
@@ -138,9 +136,8 @@ Steps:
 2. The MATLAB script hcp_cca_analysis3.m was run (NOTE: the same issue with subjects being dropped is encountered, so the script removes these subjects from our vars and NET matrices)
 
 **The results are as follows:**
-
-Ncca (number of FWE-significant CCA components): 12
-Scatter plot of SM weights vs. connectome weights:
+  - Ncca (number of FWE-significant CCA components): 12
+  - Scatter plot of SM weights vs. connectome weights:
 <p align="Center">
   <img src="analysis3/images/analysis3_VvsU.png">
 </p>
