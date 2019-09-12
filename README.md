@@ -25,7 +25,11 @@ The purpose of this analysis is to:
   - unrestricted_1200_release.cscv - 39bf7c6cbf71df81397ad1654156ae64 (3522034 bytes)
 
 ## Accesssing the data used in these analyses
-The datasets used in our analyses are hosted on a Box account, and to request access please email nikhil.goyal@nih.gov with your name, institution, and explanation of why you are requesting access.
+To simplify replication of these analyses (and if you do not wish to work from the raw HCP datasets), all necessary data to run each analysis documented on this page have been saved in a MATLAB workspace.
+
+These files are hosted on a Box account, and to request access please email nikhil.goyal@nih.gov with your name, institution, and explanation of why you are requesting access.
+
+
 
 ## Analysis 2 (READ THIS FIRST) -  Attempt to replicate Smith et al. _exactly_ with 461 subjects
 _All scripts for this analysis are located in analysis2/scripts_
