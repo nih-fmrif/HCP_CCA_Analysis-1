@@ -23,15 +23,15 @@ _All scripts for this analysis are located in analysis1/scripts_
 
 1. The subjects x partial connectome matrix was generated   
    - This matrix had to be created from the partial netmat information that is included in the HCP500 release. These are included as CIFTI files (.pconn.nii) which can be opened in HCP Workbench (specifically, in 'wb_view')
-      - the specific files used were located in 
+      - the specific files used were located in (these paths are from file struture of the dataset downloaded from HCP)
                     
             
-            HCP_500_release/HCP500_Parcellation_Timeseries_Netmats/netmats_3T_Q1-Q6related468_MSMsulc_ICAd200_ts2.tar.gz
+            HCP500_Parcellation_Timeseries_Netmats/netmats_3T_Q1-Q6related468_MSMsulc_ICAd200_ts2.tar.gz
            
             
          _once you extract this file, a folder called 'netmats' is created, the actual CIFTI files needed are located in:_
             
-            HCP_500_release/HCP500_Parcellation_Timeseries_Netmats/netmats/3T_Q1-Q6related468_MSMsulc_d200_ts2_netmat2
+            HCP500_Parcellation_Timeseries_Netmats/netmats/3T_Q1-Q6related468_MSMsulc_d200_ts2_netmat2
             
        - because the data is supplied as CIFTI files, HCP workbench's wb_command tool is used to convert them to .csv files
                 
