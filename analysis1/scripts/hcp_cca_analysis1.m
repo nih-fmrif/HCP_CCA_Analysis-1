@@ -101,3 +101,6 @@ for i=1:size(varsgrot,2)
 end
 grotBBd = corr(grotV(:,1),varsgrot,'rows','pairwise')'; % weights after deconfounding
 
+scatter(grotU(:,1),grotV(:,1))
+xlabel('canonical variables (connectome edges)');
+ylabel('canonical variables (subject measures)');
