@@ -1,7 +1,0 @@
-TODO:
-
-1. repeat the CCA analysis using the HPC_500 data, try to replicate identically the result from Smith et al
-2. Clean up the cca code, rewrite if necessary, understand all steps
-3. run the CCA code on HPC_1200 data, see if the results hold up compared to HPC_500 (and 800?)
-4. create cca analysis code that is more flexible, carefully document the SM removal and why
-5. extend analysis to BioBank? CMI? ABCD? MEG?
