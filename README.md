@@ -133,7 +133,9 @@ Since Smith et al. provided the 478 Subject measures initially fed into the CCA,
 
 Steps:
 1. NET.txt and vars.txt were generated using the Jupyter Notebook scripts _generate_NET_analysis3.ipynb_ and _generate_vars_analysis3.ipynb_
-2. The MATLAB script hcp_cca_analysis3.m was run (NOTE: the same issue with subjects being dropped is encountered, so the script removes these subjects from our vars and NET matrices)
+2. The MATLAB script hcp_cca_analysis3.m was run 
+
+**NOTE: the same issue with subjects being dropped is encountered (as in Analysis 2), so the _hcp_cca_analysis3.m_ script removes these subjects from our vars and NET matrices**
 
 **The results are as follows:**
   - Ncca (number of FWE-significant CCA components): 12
