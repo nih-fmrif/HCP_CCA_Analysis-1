@@ -134,3 +134,11 @@ Steps:
 2. The MATLAB script hcp_cca_analysis3.m was run (NOTE: the same issue with subjects being dropped is encountered, so the script removes these subjects from our vars and NET matrices)
 
 The results are as follows:
+
+Ncca (number of FWE-significant CCA components): 12
+
+Scatter plot of SM weights vs. connectome weights:
+<p align="Center">
+  <img src="analysis3/images/analysis3_VvsU.png" width=450>
+</p>
+
