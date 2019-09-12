@@ -4,18 +4,25 @@
 % PALM        http://fsl.fmrib.ox.ac.uk/fsl/fslwiki/PALM
 % nearestSPD  http://www.mathworks.com/matlabcentral/fileexchange/42885-nearestspd
 
-%%% input data -- these are already included in the MATLAB workspace "hcp_cca_500release_data.mat"
+%%% input data
 % vars=load('vars.txt');               % needs to be a subjects X subjectmeasures text file - see www.fmrib.ox.ac.uk/analysis/HCP-CCA
 % vars(:,sum(isnan(vars)==0)<60)=NaN;  % pre-delete vars with LOADS of missing data
 % varsQconf=load('varsQconf.txt');     % previously-imputed acquisition period (recon method)
 
+
+clear
+load("hcp_cca_analysis3.mat")
+
 %%% load netmats from HCP PTN release
 % set NET to be the subjects X unwrapped network-matrices (partial correlations)
 
+varsQconf = zeros(1003,1)
+
 %%% setup confounds matrix
-% conf=palm_inormal([ varsQconf vars(:,[7 14 15 22 23 25]) vars(:,[265 266]).^(1/3) ]);    % Gaussianise, normal thing to do
-% conf(isnan(conf))=0;  % impute missing data as zeros
-% conf=nets_normalise([conf conf(:,2:end).^2]);  % add on squared terms and renormalise, used to capture nonlinear effects
+conf=palm_inormal([ varsQconf vars(:,[7 14 15 22 23 25]) vars(:,[265 266]).^(1/3) ]);    % Gaussianise, normal thing to do
+conf(isnan(conf))=0;  % impute missing data as zeros
+conf=nets_normalise([conf conf(:,2:end).^2]);  % add on squared terms and renormalise, used to capture nonlinear effects
+conf(isnan(conf)|isinf(conf))=0; %again convert NaN/inf to 0 (above line makes them reappear for some reason)
 
 %%% number of components to feed into CCA
 Nkeep=100;
@@ -25,6 +32,17 @@ Nkeep=100;
 Nperm=10000;                                                                       % in the paper we used 100000 but 10000 should be enough
 EB=hcp2blocks('restricted_1200_release.csv', [ ], false, vars(:,1)); % change the filename to your version of the restricted file, HOW they will be permuted
 PAPset=palm_quickperms([ ], EB, Nperm);                                            % the final matrix of permuations, the actual permutations
+
+% Since subjects are dropped by hcp2blocks, we need to drop them from the
+% other matrices (vars, NET, varsQconf) to avoid errors
+subs = EB(:,5) %column 5 of EB contains the subject IDs
+LIA = ismember(vars,subs)
+rows_keep = LIA(:,1)
+vars = vars(rows_keep,:)
+NET = NET(rows_keep,:)
+varsQconf= varsQconf(rows_keep,:)
+conf = conf(rows_keep,:)
+
 
 %%% prepare main netmat matrix - we have a range of normalisation possibilities
 NET1=nets_demean(NET);  NET1=NET1/std(NET1(:)); % no norm
@@ -63,7 +81,7 @@ NETd=nets_demean(grot-conf*(pinv(conf)*grot));   % deconfound and demean
 %%% "impute" missing vars data - actually this avoids any imputation
 varsd=palm_inormal(vars); % Gaussianise
 for i=1:size(varsd,2) % deconfound ignoring missing data
-  grot=(isnan(varsd(:,i))==0); grotconf=nets_demean(conf(grot,:)); varsd(grot,i)=normalise(varsd(grot,i)-grotconf*(pinv(grotconf)*varsd(grot,i)));
+  grot=(isnan(varsd(:,i))==0); grotconf=nets_demean(conf(grot,:)); varsd(grot,i)=normalize(varsd(grot,i)-grotconf*(pinv(grotconf)*varsd(grot,i)));
 end
 varsdCOV=zeros(size(varsd,1));
 for i=1:size(varsd,1) % estimate "pairwise" covariance, ignoring missing data
@@ -104,3 +122,6 @@ for i=1:size(varsgrot,2)
 end
 grotBBd = corr(grotV(:,1),varsgrot,'rows','pairwise')'; % weights after deconfounding
 
+scatter(grotU(:,1),grotV(:,1))
+xlabel('canonical variables (connectome edges)');
+ylabel('canonical variables (subject measures)');
