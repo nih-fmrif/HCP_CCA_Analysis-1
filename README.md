@@ -56,7 +56,7 @@ The purpose of this analysis is to:
 
 However, this plot is NOT identical to the one in the Smith et al. paper. This could be due to a number of factors (different restricted or behavioral data since we used the data from HCP 1200, the duplicate subject removed)
 
-** TO REPLICATE THIS ANALYSIS: you must use the _hcp_cca_analysis1.m_ script along with the _hcp_cca_analysis2.mat_ file.**
+**TO REPLICATE THIS ANALYSIS: you must use the _hcp_cca_analysis1.m_ script along with the _hcp_cca_analysis2.mat_ file.**
 
 ## Analysis 2 -  Attempt to replicate Smith et al. _exactly_ with 461 subjects
 
