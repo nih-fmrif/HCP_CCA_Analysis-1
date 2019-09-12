@@ -63,7 +63,7 @@ To exactly replicate the Smith et al study we used:
   - the HCP 500 release netmat data to generate NET.txt (same as Analysis 1)
   - the restricted and behavioral files from the HCP 500 release (which should be the exact same as the data used in the Smith et al. study) (in Analysis 1, we used this data from the current release, which could differ from the HCP 500 release)
 
-1. the NET.txt and vars.txt files were generated in the exact same manner as in Analysis 1 (except now with all 461 subjects used by Smith et al.)
+1. the NET.txt and vars.txt files were generated in the exact same manner as in Analysis 1 (except now with all 461 subjects used by Smith et al., and using slightly different Python scripts, located in analysis2/scripts/)
 2. The same hcp_cca.m code was used for analysis
 3. Running the code resulted in the following error:
 
