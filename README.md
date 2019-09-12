@@ -29,12 +29,12 @@ These files are hosted on a Box account, and to request access please email nikh
 
 # How to run these analyses on your own
 
-1. Clone this GitHub repo to your local computer]
+1. Clone this GitHub repo to your local computer
 2. Download the .mat workspaces from the Box account (request access if you have not)
 3. Move the .mat file to their respective folders, for example:
-   - move hcp_cca_analysis1.mat to analysis1/mat_files
-4. Launch MATLAB, and load the .mat workspace corresponding to the analysis you want to run (ex. load hcp_cca_analysis1.mat)
-5. Once the workspace is loaded, add the 'dependencies' folder to path, and open the correct .m script (ex. open hcp_cca_analysis1.m)
+   - move _hcp_cca_analysis1.mat_ to analysis1/
+4. Launch MATLAB, and load the .mat workspace corresponding to the analysis you want to run (ex. load _hcp_cca_analysis1.mat_ if you want to run Analysis 1)
+5. Once the workspace is loaded, add the 'dependencies' folder to path, and open the correct .m script (ex. open _hcp_cca_analysis1.m_ if you want to run Analysis 1)
 6. Run the MATLAB script, a scatter plot will be output (matching those found in this README)
 
 # Analyses
