@@ -27,6 +27,16 @@ To simplify replication of these analyses (and if you do not wish to work from t
 
 These files are hosted on a Box account, and to request access please email nikhil.goyal@nih.gov with your name, institution, and explanation of why you are requesting access.
 
+# How to run these analyses on your own
+
+1. Clone this GitHub repo to your local computer]
+2. Download the .mat workspaces from the Box account (request access if you have not)
+3. Move the .mat file to their respective folders, for example:
+   - move hcp_cca_analysis1.mat to analysis1/mat_files
+4. Launch MATLAB, and load the .mat workspace corresponding to the analysis you want to run (ex. load hcp_cca_analysis1.mat)
+5. Once the workspace is loaded, add the 'dependencies' folder to path, and open the correct .m script (ex. open hcp_cca_analysis1.m)
+6. Run the MATLAB script, a scatter plot will be output (matching those found in this README)
+
 # Analyses
 
 ## Analysis 2 (READ THIS FIRST) -  Attempt to replicate Smith et al. _exactly_ with 461 subjects
