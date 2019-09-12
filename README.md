@@ -139,6 +139,6 @@ Ncca (number of FWE-significant CCA components): 12
 
 Scatter plot of SM weights vs. connectome weights:
 <p align="Center">
-  <img src="analysis3/images/analysis3_VvsU.png" width=450>
+  <img src="analysis3/images/analysis3_VvsU.png">
 </p>
 
