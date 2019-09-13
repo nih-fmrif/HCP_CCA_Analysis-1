@@ -151,7 +151,7 @@ _All scripts for this analysis are located in analysis1/scripts_
 However, this plot is NOT identical to the one in the Smith et al. paper. This could be due to a number of factors (different restricted or behavioral data since we used the data from HCP 1200, the duplicate subject removed)
 
 
-## Analysis 3 - First attempt to expand the CCA analysis to the HCP 1200 dataset with al 478SMs (imputed missing data)
+## Analysis 3 - First attempt to expand the CCA analysis to the HCP 1200 dataset with 478SMs
 _All scripts for this analysis are located in analysis3/scripts_
 
 **TO REPLICATE THIS ANALYSIS: you must use the _hcp_cca_analysis3.m_ script along with the _hcp_cca_analysis3.mat_ file.**
