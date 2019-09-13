@@ -27,6 +27,16 @@ To simplify replication of these analyses (and if you do not wish to work from t
 
 These files are hosted on a Box account, and to request access please email nikhil.goyal@nih.gov with your name, institution, and explanation of why you are requesting access.
 
+## Brief explanation of the analyses
+
+Note: Although Analysis 2 was not conducted first, it makes more sense to discuss them in order Analysis 2 --> Analysis 1 --> Analysis 3
+
+A. Analysis 2: The goal was to exactly replicate the results of Smith et al, using the same 461 subjects. We managed to acquire the behavioral and restricted datasets from the actual HCP 500 release, but when we ran our analysis 4 subjects had to be dropped from the restricted file (due to missing elementary data needed to compute subject permutations) resulting in only 458 subjects in our analysis.
+
+B. Analysis 1: In this analysis, we used the behavioral and restricted data from HCP 1200. Using these, we were able to run the analysis on 460 of the subjects from the Smith et al. analysis. 460 were used instead of 461 because there was a duplicate subject in the datasets which wasn't identified at the time of the HCP 500 release (see [here](https://www.humanconnectome.org/study/hcp-young-adult/document/900-subjects-data-release)).
+
+C. Analysis 3: This was an attempt to extend the CCA analysis to the HCP 1200 dataset, which included 1003 subjects. Again, subjects were dropped from the restricted datafile (from the HCP 1200 release), so the analysis was conducted on 1001 subjects.
+
 # *How to run these analyses on your own*
 
 1. Clone this GitHub repo to your local computer
