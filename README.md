@@ -49,10 +49,10 @@ C. Analysis 3: This was an attempt to extend the CCA analysis to the HCP 1200 da
 
 # *Analyses*
 
-## Analysis 2 (READ THIS FIRST) -  Attempt to replicate Smith et al. _exactly_ with 461 subjects
+## Analysis 2 (READ THIS FIRST) -  Attempt to reproduce Smith et al. _exactly_ with 461 subjects
 _All scripts for this analysis are located in analysis2/scripts_
 
-**TO REPLICATE THIS ANALYSIS: you must use the _hcp_cca_analysis2.m_ script along with the _hcp_cca_analysis2.mat_ file.**
+**TO RUN THIS ANALYSIS: you must use the _hcp_cca_analysis2.m_ script along with the _hcp_cca_analysis2.mat_ file.**
 
 To exactly replicate the Smith et al study we used:
   - the rfMRI_Motion and quarter/release data provided on the [HCP-CCA site](https://www.fmrib.ox.ac.uk/datasets/HCP-CCA/)
@@ -106,7 +106,7 @@ But this is still not identical to the plot of SM weights vs. connectome weights
 ## Analysis 1 - Attempt to replicate Smith et al. (with 460 subjects)
 _All scripts for this analysis are located in analysis1/scripts_
 
-**TO REPLICATE THIS ANALYSIS: you must use the _hcp_cca_analysis1.m_ script along with the _hcp_cca_analysis1.mat_ file.**
+**TO RUN THIS ANALYSIS: you must use the _hcp_cca_analysis1.m_ script along with the _hcp_cca_analysis1.mat_ file.**
 
 **only 460 subjects were used (Smith et al. used 461) because subject 142626 was a duplicate - in a follow up analysis (Analysis 2, discussed below) we will try to exactly replicate with all 461 subjects and the restricted/behavioral data released in the HCP 500 dataset**
 
@@ -151,7 +151,7 @@ _All scripts for this analysis are located in analysis1/scripts_
 However, this plot is NOT identical to the one in the Smith et al. paper. This could be due to a number of factors (different restricted or behavioral data since we used the data from HCP 1200, the duplicate subject removed)
 
 
-## Analysis 3 - First attempt to expand the CCA analysis to the HCP 1200 dataset with 478SMs
+## Analysis 3 - First attempt to replicate the CCA analysis with the HCP 1200 dataset (with 478SMs as in Smith et al.)
 _All scripts for this analysis are located in analysis3/scripts_
 
 **TO REPLICATE THIS ANALYSIS: you must use the _hcp_cca_analysis3.m_ script along with the _hcp_cca_analysis3.mat_ file.**
