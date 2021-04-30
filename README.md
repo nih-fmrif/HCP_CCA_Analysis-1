@@ -1,6 +1,6 @@
 # *Human Connectome Project, CCA Analyses Documentation*
 
-## This work is now available as a preprint on bioArxiv: http://doi.org/10.1101/2020.04.23.05831
+## This work is now available as a preprint on bioArxiv: https://doi.org/10.1101/2020.04.23.058313
 
 ## GOALS
 
@@ -28,16 +28,6 @@ A. Analysis 2: The goal was to exactly replicate the results of Smith et al, usi
 B. Analysis 1: In this analysis, we used the behavioral and restricted data from HCP 1200. Using these, we were able to run the analysis on 460 of the subjects from the Smith et al. analysis. 460 were used instead of 461 because there was a duplicate subject in the datasets which wasn't identified at the time of the HCP 500 release (see [here](https://www.humanconnectome.org/study/hcp-young-adult/document/900-subjects-data-release)).
 
 C. Analysis 3: This was an attempt to extend the CCA analysis to the HCP 1200 dataset, which included 1003 subjects. Again, subjects were dropped from the restricted datafile (from the HCP 1200 release), so the analysis was conducted on 1001 subjects.
-
-# *How to run these analyses on your own*
-
-1. Clone this GitHub repo to your local computer
-2. Download the .mat workspaces from the Box account (request access if you have not)
-3. Move the .mat file to their respective folders, for example:
-   - move _hcp_cca_analysis1.mat_ to analysis1/
-4. Launch MATLAB, and load the .mat workspace corresponding to the analysis you want to run (ex. load _hcp_cca_analysis1.mat_ if you want to run Analysis 1)
-5. Once the workspace is loaded, add the 'dependencies' folder to path, and open the correct .m script (ex. open _hcp_cca_analysis1.m_ if you want to run Analysis 1)
-6. Run the MATLAB script, a scatter plot will be output (matching those found in this README)
 
 # *Analyses*
 
