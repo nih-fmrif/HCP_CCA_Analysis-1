@@ -1,5 +1,7 @@
 # *Human Connectome Project, CCA Analyses Documentation*
 
+## This work is now available as a preprint on bioArxiv: http://doi.org/10.1101/2020.04.23.05831
+
 ## GOALS
 
 The purpose of this analysis is to:
@@ -12,20 +14,10 @@ The purpose of this analysis is to:
 
 **(4)** Expand this analysis to other connectome datasets
 
-## File names and Checksum of files contents (computed with _md5 &lt;filename&gt;_ on Mac OS)
-  - hcp_cca_analysis1.mat - c3478c29e60f3d62a87ecdeefd4672a0 (136864876 bytes)
-  - hcp_cca_analysis2.mat - 650a7e34c52786c2da5c1c3c7def9300 (68583351 bytes)
-  - hcp_cca_analysis3.mat - 22a21bb7c003b37322abf73f7267ce98 (123318709 bytes)
-  
-  - restricted_500_release.csv - 9374bf82ae119977ccb7816503a3b149 (309106 bytes)
-  - restricted_1200_release.csv - f4c0de51deee3ae57fb90ecd46c543e0 (701178 bytes)
-  - unrestricted_500_release.csv - 4a5faf47cb952acaca933b6c3a12bfaf (1000552 bytes)
-  - unrestricted_1200_release.cscv - 39bf7c6cbf71df81397ad1654156ae64 (3522034 bytes)
 
 ## Accesssing the data used in these analyses
-To simplify replication of these analyses (and if you do not wish to work from the raw HCP datasets), all necessary data to run each analysis documented on this page have been saved in a MATLAB workspaces.
 
-These files are hosted on a Box account, and to request access please email nikhil.goyal@nih.gov with your name, institution, and explanation of why you are requesting access.
+This analysis required access to the restricted HCP dataset that can be requested here: https://www.humanconnectome.org/study/hcp-young-adult/document/restricted-data-usage
 
 ## Brief explanation of the analyses
 
